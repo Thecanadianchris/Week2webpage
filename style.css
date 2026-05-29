@@ -1,0 +1,105 @@
+
+/* Style for Navigation */
+
+
+nav {
+    background-color: #5d7891;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+nav .nav-links a {
+    font-size: 30px;  
+margin: 0 20px
+}
+
+
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+
+
+
+h1 {
+    margin: 40px 0;
+}
+
+
+
+.box1 {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.sticky-box {
+    position: -webkit-sticky;
+    /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: #4caf50;
+    padding: 20px;
+    border: 1px solid #4caf50;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all 0.4s ease;
+    /* Smooth transitions */
+    cursor: pointer;
+}
+
+
+.scale-box:hover {
+    transform: scale(1.1);
+    background-color: #0056b3;
+   
+}
+
+
+
+
+footer {
+    margin: 40px 0;
+}
