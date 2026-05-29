@@ -11,11 +11,13 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10
+
 }
 
 
 nav .nav-links a {
-    font-size: 30px;  
+    font-size: 20px;  
 margin: 0 20px
 }
 
@@ -40,15 +42,20 @@ h1 {
 
 
 .box1 {
-    padding: 20px;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    padding: 0px;
     margin: 20px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
+  
+    
+
+
 }
 
 .sticky-box {
-    position: -webkit-sticky;
-    /* For Safari */
     position: sticky;
     top: 0;
     background-color: #4caf50;
@@ -56,6 +63,8 @@ h1 {
     border: 1px solid #4caf50;
     color: white;
     text-align: center;
+    z-index: 10
+
 }
 
 
