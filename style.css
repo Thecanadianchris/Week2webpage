@@ -1,25 +1,46 @@
 
 /* Style for Navigation */
 
-
 nav {
     background-color: #5d7891;
     color: white;
-    padding: 10px ;
-    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10
-
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 10;
 }
 
+nav .nav-logo {
+    margin-right: auto; /* pushes logo to the left */
+}
+
+nav .nav-links {
+    position: absolute;  /* ← takes links out of flow */
+    left: 50%;           /* ← starts at center */
+    transform: translateX(-50%); /* ← nudges back by half its own width */
+    display: flex;
+    align-items: center;
+}
 
 nav .nav-links a {
-    font-size: 20px;  
-margin: 0 20px
+    font-size: 20px;
+    margin: 0 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* General Styles */
@@ -42,7 +63,7 @@ h1 {
 
 
 .box1 {
-    top: 35px;
+    top: 100px;
     left: 0;
     width: 100%;
     padding: 0px;
@@ -57,7 +78,7 @@ h1 {
 
 .sticky-box {
     position: sticky;
-    top: 0;
+    top: 60px;
     background-color: #4caf50;
     padding: 20px;
     border: 1px solid #4caf50;
