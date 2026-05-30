@@ -29,15 +29,9 @@ nav .nav-links {
 nav .nav-links a {
     font-size: 20px;
     margin: 0 20px;
+    text-decoration: none;
+    color: white;          
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -46,7 +40,7 @@ nav .nav-links a {
 /* General Styles */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: times new roman, serif;
     margin: 30px;
     padding: 0;
     text-align: center;
@@ -87,10 +81,6 @@ h1 {
     z-index: 9
 
 }
-
-
-
-
 
 
 main {
