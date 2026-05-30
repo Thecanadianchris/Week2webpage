@@ -1,27 +1,26 @@
 
-/* Style for Navigation */
-
 nav {
-    background-color: #5d7891;
-    color: white;
+    background-color: #7190ad;
+    color: rgb(75, 185, 167);
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
+    min-height: 60px;  
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 10 20px;
     z-index: 10;
 }
 
 nav .nav-logo {
-    margin-right: auto; /* pushes logo to the left */
+    margin-right: auto; 
 }
 
 nav .nav-links {
-    position: absolute;  /* ← takes links out of flow */
-    left: 50%;           /* ← starts at center */
-    transform: translateX(-50%); /* ← nudges back by half its own width */
+    position: absolute;  
+    left: 50%;          
+    transform: translateX(-50%); 
     display: flex;
     align-items: center;
 }
@@ -36,15 +35,13 @@ nav .nav-links a {
 
 
 
-
-/* General Styles */
-
 body {
     font-family: times new roman, serif;
-    margin: 30px;
+    margin: 00px;
     padding: 0;
+    padding-top: 80px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #bdd3b2;
 }
 
 
@@ -72,12 +69,8 @@ h1 {
 
 .sticky-box {
     position: sticky;
-    top: 60px;
-    background-color: #4caf50;
-    padding: 20px;
-    border: 1px solid #4caf50;
-    color: white;
-    text-align: center;
+    width: 100%;
+    top: 120px;
     z-index: 9
 
 }
@@ -106,8 +99,8 @@ main {
     align-items: center;
     font-size: 1.2rem;
     transition: all 0.4s ease;
-    /* Smooth transitions */
     cursor: pointer;
+    
 }
 
 
