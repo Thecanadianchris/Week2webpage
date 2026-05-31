@@ -134,6 +134,149 @@ main {
 
 
 
+.contact-logo
+{
+    width: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+
+
+/* Form Section */
+
+
+.section {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border: 1px solid #b0b8d8;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+
+
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 4px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 9px 12px;
+    font-size: 16px;
+    border: 1px solid #b0b8d8;
+    border-radius: 6px;
+    background-color: #f7f8fd;
+    color: #1d1c2c;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #5d7891;
+    box-shadow: 0 0 0 3px rgba(93, 120, 145, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+}
+
+.radio-opt {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.radio-opt input[type="radio"] {
+    accent-color: #5d7891;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    margin-top: 1.25rem;
+    width: 100%;
+    padding: 10px;
+    background-color: #5d7891;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.submit-btn:hover {
+    background-color: #4a6275;
+}
+
+.success-msg {
+    display: none;
+    margin-top: 1rem;
+    padding: 10px 14px;
+    background-color: #e6f4ea;
+    color: #2d7a3a;
+    border-radius: 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.email-label::before {
+    content: "✉️ ";
+}
+
+.phone-label::before {
+    content: "📞 ";
+}
+
+
+/* Form Section Above */
+
+.big-center {
+  font-size: 22px;
+  text-align: center;
+  display: block;
+
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     margin: 40px 0;
