@@ -36,20 +36,19 @@
 
 
 
- <div >
+ <div id="banner" >
 
 <img class="contact-logo" src="./images/hawkerdroneslogo.svg" style="width: 50%;  object-fit: cover; display: block;" alt="Banner">
           
         </div>
 
 
- <main>
+ <main style="flex-direction: column; align-items: center; padding-top: 20px;">
 
-<div>
-        <h1>Contact Hawker Drones</h1>
-    </div>
+<div style="width: 100%; margin: 30px 0 10px 0;">
+    <h1 style="text-align: center;">Contact Hawker Drones</h1>
+</div>
 
-    
 <div><p class="big-center">Location: Stonehouse Plymouth</p></div>
 <div><p class="big-center">Telephone: 07743788134</p></div>
 <div><p class="big-center">Email: thecanadianchris@yahoo.com</p></div>
@@ -60,7 +59,7 @@
 
 
 
-<div class="section" id="contact">
+<div class="section" id="contact" style="margin: 20px auto; width: 90%">
     <h2>Contact Me</h2>
     <form onsubmit="handleSubmit(event)">
 
@@ -79,10 +78,32 @@
             <input type="tel" id="phone" name="phone" placeholder="+44 7700 000000">
         </div>
 
+
         <div class="form-group">
             <label for="message" >Message</label>
             <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
         </div>
+
+<div class="form-group">
+    <label for="sector">Sector</label>
+    <select id="sector" name="sector">
+        <option value="" disabled selected>Select your sector</option>
+        <option value="arable">Arable farming</option>
+        <option value="livestock">Livestock farming</option>
+        <option value="horticulture">Horticulture</option>
+        <option value="estate">Estate management</option>
+        <option value="research">Research & trials</option>
+        <option value="other">Other</option>
+    </select>
+</div>
+
+
+
+
+
+
+
+
 
         <div class="form-group">
             <label>How would you like me to get back to you?</label>
@@ -91,6 +112,13 @@
                 <label class="radio-opt"><input type="radio" name="contact-pref" value="call"> Call back</label>
                 <label class="radio-opt"><input type="radio" name="contact-pref" value="text"> Text message</label>
             </div>
+
+
+
+
+
+
+
         </div>
 
         <button type="submit" class="submit-btn">Send message</button>

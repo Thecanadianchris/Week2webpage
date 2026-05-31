@@ -150,7 +150,7 @@ main {
 
 
 .section {
-    max-width: 800px;
+    max-width: 400px;
     margin: 40px auto;
     background-color: #ffffff;
     border: 1px solid #b0b8d8;
@@ -171,6 +171,7 @@ main {
     font-size: 18px;
     color: #444;
     margin-bottom: 4px;
+    text-align: left;
 }
 
 .form-group input[type="text"],
@@ -271,7 +272,11 @@ main {
 
 
 
-
+#banner {
+    position: sticky;
+    top: 80px;    
+    z-index: 5;   
+}
 
 
 
