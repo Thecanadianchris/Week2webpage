@@ -37,7 +37,7 @@ nav .nav-links a {
 
 
 body {
-    font-family: times new roman, serif;
+    font-family: arial, sans-serif;
     font-size: 20px;
     margin: 0 0px;
     padding: 0;
@@ -105,8 +105,8 @@ main {
 
 .box {
     width: 400px;
-    height: 400px;
-    background-color: #007BFF;
+    height: 300px;
+    background-color: #08752c7a;
     color: white;
     display: flex;
     flex-direction: column; 
