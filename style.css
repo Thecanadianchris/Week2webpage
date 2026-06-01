@@ -156,8 +156,11 @@ main {
 }
 
 .box3 {
-    width: 50%;
-    height: 400px;
+    width: 30%;
+    min-height: 400px;
+    min-width: 350px;
+    height: auto;
+    overflow: hidden; 
     background-color: #01110623;
     color: white;
     display: flex;
@@ -172,7 +175,13 @@ main {
     padding: 40px; 
 }
 
-
+.box3 img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
 
 
 
