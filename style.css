@@ -157,7 +157,17 @@ main {
 
 
 
-
+.how-it-works-box {
+    width: 90%;
+    max-width: 800px;
+    background-color: #01110623;
+    border: 1px solid #08752c7a;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding: 30px 40px;
+    margin: 10px auto 30px auto;
+    text-align: left;
+}
 
 
 
